@@ -26,15 +26,12 @@
     },
     "ios": {
       "bundleIdentifier": "com.master.hiddenvoice",
-      "buildNumber": "1.0.0",
+      "buildNumber": "2.0.0",
       "supportsTablet": true
     },
     "android": {
       "package": "com.master.hiddenvoice",
-      "versionCode": 2,
-      "permissions": [
-        "RECORD_AUDIO"
-      ]
+      "versionCode": 2
     }
   }
 }
