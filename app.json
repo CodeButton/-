@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "성대모사 달인되기",
+    "slug": "VoiceApp",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appicon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "packagerOpts": {
+      "port": 58643
+    },
+    "ios": {
+      "bundleIdentifier": "com.master.hiddenvoice",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.master.hiddenvoice",
+      "versionCode": 1,
+      "permissions": [
+        "RECORD_AUDIO"
+      ]
+    }
+  }
+}
